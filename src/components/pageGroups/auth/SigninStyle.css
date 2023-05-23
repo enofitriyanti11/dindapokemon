@@ -1,0 +1,30 @@
+.auth-form-container, .signin-form, .signup-form{
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    align-items: center;
+    color: #424372;
+  }
+  
+  label {
+    padding: 0.25rem 0;
+  }
+  
+  input{
+    margin: 0.5rem 0;
+    padding: 0.7rem;
+    border: none;
+    border-radius:10px;
+  }
+  
+  button{
+    padding: 10px;
+  }
+  
+  .link-btn{
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }
+  
+  
